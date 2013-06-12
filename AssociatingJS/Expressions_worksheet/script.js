@@ -6,6 +6,5 @@
 var dogAging = 7;
 var humanAge = 3;
 //Multiply 7 and 3
-//var dogAging = humanAge * 7
 //Print out Sparky's real age
-console.log("Sparky\'s real age in dog years is" + dogAging * humanAge)
+console.log("Sparky\'s real age in dog years is \ " + dogAging * humanAge)
