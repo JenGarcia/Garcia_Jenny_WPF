@@ -4,7 +4,7 @@
 
 //Calculate how old Sparky is in dog years based on his actual age.
 var dogAging = 7;
-var sparkysAge = 3;
+var humanAge = 3;
 //Multiply 7 and 3
 var dogAging = sparkysAge * 7
 //Print out Sparky's real age
