@@ -8,4 +8,5 @@ var averageMonth = 4;
 var monthlyIncome = weeklyPay * averageMonth //Calculates this information by multiplying weeklypay and averagemonth to figure out how much income is brought home every month
 var result = "The average income a month is " + monthlyIncome + " dollars" //Calculates monthly income result
 var monthlyExpenses = ["950", "250", "130", "125", "80"]
-console.log(monthlyExpenses[1])
+var monthlySpendings = "The total for monthly spendings are " + [0 + 1 + 2 + 3 + 4] + "dollars"
+console.log(monthlySpendings)
