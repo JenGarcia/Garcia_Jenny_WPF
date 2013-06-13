@@ -10,5 +10,5 @@ var pixelHeight = 1025
 var widthInfo = pixelWidth / imageWidth //You must divide width in inches with pixel width
 var heightInfo = pixelHeight / imageHeight //Divide height in inches with pixel height
 var widthResult = Math.round(widthInfo*10)/10
-var heightResult = Math.round(heightInfo*10)/10
+var heightResult = Math.round(heightInfo*1)/1
 console.log(heightResult)
