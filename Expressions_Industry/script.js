@@ -11,4 +11,4 @@ var widthInfo = pixelWidth / imageWidth //You must divide width in inches with p
 var heightInfo = pixelHeight / imageHeight //Divide height in inches with pixel height
 var widthResult = Math.round(widthInfo*10)/10 //Multiply width info by 10 then divide it by 10
 var heightResult = Math.round(heightInfo*1)/1 //Multiply height info by 1 then divide it by 1
-console.log("The resolution of this image is " + widthResult  heightResult + " pixels per inch.")
+console.log("The resolution of this image is " + widthResult + "x" + heightResult + " pixels per inch.")
