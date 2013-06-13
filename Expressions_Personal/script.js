@@ -10,3 +10,4 @@ var result = "The average income a month is " + monthlyIncome + " dollars" //Cal
 var monthlyExpenses = [950, 250, 130, 125, 80] //Listing monthly expenses using an array expression
 var totalExpenses = monthlyExpenses[0] + monthlyExpenses[1] + monthlyExpenses[2] + monthlyExpenses[3] + monthlyExpenses[4] //Adding monthly expenses listed in the array
 var extraCash = "My extra spending money that I have left over after paying living expenses is " + totalExpenses - result + " dollars"
+console.log(extraCash)
