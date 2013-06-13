@@ -7,5 +7,4 @@ var imageHeight = 14.222
 var pixelWidth = 1280
 var pixelHeight = 1025
 //Once inch and pixel information is gathered, we now have to do some math!:)
-var widthInfo = pixelWidth / imageWidth
-console.log(widthInfo)
+var widthInfo = pixelWidth / imageWidth //You must divide width in inches with pixel width
