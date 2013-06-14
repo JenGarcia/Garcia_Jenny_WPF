@@ -6,4 +6,4 @@ var secondProblem = prompt("Correct, 10 is the right answer! \nNow what if you g
 var thirdProblem = prompt("Gasp! Spikey, the dog, just snatch 2 whole slices. \nHow many slices of pizza do you have left?") //Third alert message pop-up
 var fourthProblem = prompt("What? You don't like that name? \nWhat would you have named the dog?")
 var dogName = prompt("That's an interesting name :)")
-var 
+var questionAgain = prompt("Back to math... So now that you have 5 slices of pizza left. \nYou give away 1 more slice. \nHow many does that leave you with?")
