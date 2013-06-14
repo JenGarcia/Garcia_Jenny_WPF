@@ -7,4 +7,7 @@ var thirdProblem = prompt("Gasp! Spikey, the dog, just snatch 2 whole slices. \n
 var fourthProblem = prompt("What? You don't like that name? \nWhat would you have named the dog?")//prompt will appear for you to fill in with answer
 alert("That's an interesting name :)") //This is an alert. No input is requiered the way a prompt would ask for.
 var questionAgain = prompt("Back to math... \nSo now that you have 5 slices of pizza left. \nYou give away 1 more slice. \nHow many does that leave you with?")
-alert("You are correct! Give yourself a pat on the back")
+alert("You are correct! Give yourself a pat on the back.")
+var pizzaSlices = [12, 2, 3, 2, 1]
+var pizzaTotal = pizzaSlices[0] - pizzaSlices[1] - pizzaSlices[2] - pizzaSlices[3] - pizzaSlices[4]
+console.log("In case you got lost in the math. The answer of how many pizza you're left with is, " + pizzaTotal + " slices.")
