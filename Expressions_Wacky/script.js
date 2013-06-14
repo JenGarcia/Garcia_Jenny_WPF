@@ -7,3 +7,4 @@ var thirdProblem = prompt("Gasp! Spikey, the dog, just snatch 2 whole slices. \n
 var fourthProblem = prompt("What? You don't like that name? \nWhat would you have named the dog?")
 var dogName = prompt("That's an interesting name :)")
 var questionAgain = prompt("Back to math... \nSo now that you have 5 slices of pizza left. \nYou give away 1 more slice. \nHow many does that leave you with?")
+alert("You are correct! Give yourself a pat on the back")
