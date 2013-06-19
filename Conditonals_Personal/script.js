@@ -13,5 +13,5 @@ if(freeLanceEarnings > newCar){ //States the fact that freeLanceEarnings are les
 	console.log("You can only afford car insurance with your freelance earnings.");//Prints to the console if condition is true. In this case, the condition is false.
 }else if(monthlyJobEarnings < newCar){ //Shows that monthly earnings are greater than car payments
 	console.log("You can only afford a new car, but without insurance."); //Prints to the console if condition is true. 
-}else if(freeLanceEarnings + monthlyJobEarnings > newCar + carInsurance)
-	console.log("Congratulations!")
+}else if(freeLanceEarnings + monthlyJobEarnings > newCar + carInsurance)//Calculates and determines if statement is true
+	console.log("Congratulations! You can afford a new car with insurance.") //Prints out to the console if condition is true.
