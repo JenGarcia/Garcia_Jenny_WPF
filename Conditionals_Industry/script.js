@@ -1,3 +1,4 @@
 //Jenny Garcia
-//June 16, 2013
+//June 19, 2013
 //Conditionals Industry
+alert("Everybody wants to live the good life. \nNot only obtaining your dream job, but \nalso getting paid for doing what you love.")
