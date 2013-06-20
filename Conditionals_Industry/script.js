@@ -7,8 +7,8 @@ var graphicDesignerIncome = 45000 //Average yearly income
 var webDeveloperIncome = 80000//Average yearly income
 var webDesignerIncome = 52000//Average yearly income
 
-if(graphicDesignerIncome < webDesignerIncome){
+if(graphicDesignerIncome > webDesignerIncome){
 	console.log("If you want to live the dream life, pick a different career.")
-}else if(webDesignerIncome > webDeveloperIncome){
+}else if(webDesignerIncome < webDeveloperIncome){
 	console.log("testing")
 }
