@@ -6,3 +6,7 @@ alert("Everybody wants to live the good life. \nNot only obtaining your dream jo
 var graphicDesignerIncome = 45000 //Average yearly income
 var webDeveloperIncome = 80000//Average yearly income
 var webDesignerIncome = 52000//Average yearly income
+
+if(graphicDesignerIncome < webDesignerIncome){
+	
+}
