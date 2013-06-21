@@ -14,6 +14,6 @@ if(minimumAge > perfectAge){//Minimum age is greater than perfect age, false.
 }else if(acceptableAge > perfectAge){//Acceptable age is greater than perfect age, false.
 	console.log("You cannot drive between the hours of 1am to 5am. Unless accompanied by a license driver who is at least 21 years old.");//Prints results to the console if condition is true.
 }else if(minimumAge && acceptableAge < perfectAge){//If minimum age AND acceptable age is less than perfect age
-	console.log("Congratulations! You are free to drive as you please. However, please remember to drive safely!!");//Prints results to the console if condition is true.
+	console.log("Congratulations! You are 18 years old (or older) and your free to drive as you please. However, please remember to drive safely!!");//Prints results to the console if condition is true.
 }
 
