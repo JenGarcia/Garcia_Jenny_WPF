@@ -11,5 +11,7 @@ var perfectAge = 18;
 
 if(minimumAge < perfectAge){
 	console.log("You can only drive from 11pm to 6am with a license driver, who is 21 years old or older.")
+}else if(acceptableAge < perfectAge){
+	
 }
 
