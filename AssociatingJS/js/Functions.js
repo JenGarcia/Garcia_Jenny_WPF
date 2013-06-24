@@ -1,8 +1,9 @@
 //Functions - Function Execution
 
-function outptMsg(){
-	console.log("Hello World");//things within curly brackets is what the "factory" will perform
+//function outptMsg(){
+	//console.log("Hello World");//things within curly brackets is what the "factory" will perform
 }
+var width = 5;//wont appear since it's not being invoke 
 
 function calcArea(){
 	var width = 20;
@@ -12,4 +13,4 @@ function calcArea(){
 }
 
 calcArea(); //invoke the function so that it can print out to the console
-calcArea(); //if stated more than once, the answer will appear in the console multiple times as well
+//calcArea(); //if stated more than once, the answer will appear in the console multiple times as well
