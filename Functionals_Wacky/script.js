@@ -10,3 +10,4 @@ function multiplyMe(number){
 	var test = number * 5;
 	console.log("This is a test..." + test + " Did I succeed?")
 }
+multiplyMe(1);
