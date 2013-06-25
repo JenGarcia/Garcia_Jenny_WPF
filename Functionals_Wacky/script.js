@@ -2,4 +2,4 @@
 //June 24, 2013
 //Functions Wacky
 
-var userInput = prompt("Hello! Today we will play with multiplications. \nWe will begin with you filling the box below with your name.")
+var userInput = prompt("Hello! Today we will play with multiplications. \nWe will begin once you type in your name in the box below.")
