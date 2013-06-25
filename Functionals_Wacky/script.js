@@ -6,9 +6,9 @@ var userInput = prompt("Hello! Today we will play with multiplications. \nWe wil
 var welcomeAlert = alert("Nice to meet you! Let's get started, shall we?")//Alert message pop-up
 
 
-function multiplyMe(number){
-	var numberInput = number * 5;
-	console.log("Can you guess the missing number? Five times __ equals " + numberInput + ".")
+function multiplyMe(number){//holds parameters/information
+	var numberInput = number * 5;//calculates the information within parameters and arguments
+	console.log("Can you guess the missing number? Five times __ equals " + numberInput + ".")//prints out to the console
 }
 multiplyMe(1);//passes the value
 multiplyMe(2);//passes the value
