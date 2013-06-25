@@ -6,3 +6,7 @@ var userInput = prompt("Hello! Today we will play with multiplications. \nWe wil
 var welcomeAlert = alert("Nice to meet you! Let's get started, shall we?")//Alert message pop-up
 
 calcMultiplication(5);
+
+function multiplyMe(number){
+	var number = 5
+}
