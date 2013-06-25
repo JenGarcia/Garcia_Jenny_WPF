@@ -7,8 +7,8 @@ var welcomeAlert = alert("Nice to meet you! Let's get started, shall we?")//Aler
 
 
 function multiplyMe(number){
-	var test = number * 5;
-	console.log("This is a test..." + test + " Did I succeed?")
+	var numberInput = number * 5;
+	console.log("Can you guess the missing number? Five times __ equals " + numberInput + ".")
 }
 multiplyMe(1);
 multiplyMe(2);
