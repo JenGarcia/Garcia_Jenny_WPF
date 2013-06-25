@@ -11,3 +11,7 @@ function multiplyMe(number){
 	console.log("This is a test..." + test + " Did I succeed?")
 }
 multiplyMe(1);
+multiplyMe(2);
+multiplyMe(3);
+multiplyMe(4);
+multiplyMe(5);
