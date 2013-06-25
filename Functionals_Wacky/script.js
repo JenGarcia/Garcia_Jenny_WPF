@@ -8,6 +8,6 @@ var welcomeAlert = alert("Nice to meet you! Let's get started, shall we?")//Aler
 calcMultiplication(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
 function multiplyMe(number){
-	var number = 5
+	var number = number * 5;
 	console.log("This is a test..." + number + " Did I succeed?")
 }
