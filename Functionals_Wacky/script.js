@@ -15,3 +15,8 @@ multiplyMe(2);
 multiplyMe(3);
 multiplyMe(4);
 multiplyMe(5);
+multiplyMe(6);
+multiplyMe(7);
+multiplyMe(8);
+multiplyMe(9);
+multiplyMe(10);
