@@ -10,13 +10,13 @@ function multiplyMe(number){
 	var numberInput = number * 5;
 	console.log("Can you guess the missing number? Five times __ equals " + numberInput + ".")
 }
-multiplyMe(1);
-multiplyMe(2);
-multiplyMe(3);
-multiplyMe(4);
-multiplyMe(5);
-multiplyMe(6);
-multiplyMe(7);
-multiplyMe(8);
-multiplyMe(9);
-multiplyMe(10);
+multiplyMe(1);//passes the value
+multiplyMe(2);//passes the value
+multiplyMe(3);//passes the value
+multiplyMe(4);//passes the value
+multiplyMe(5);//passes the value
+multiplyMe(6);//passes the value
+multiplyMe(7);//passes the value
+multiplyMe(8);//passes the value
+multiplyMe(9);//passes the value
+multiplyMe(10);//passes the value
