@@ -21,3 +21,7 @@ console.log("However, if you decide to travel by a vehicle, you will arrive at y
 
 var busTime = 60;
 var carTime = 23;
+
+if(busTime > carTime){
+	console.log("You're better off traveling by car.")
+}
