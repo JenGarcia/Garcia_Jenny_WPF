@@ -22,9 +22,11 @@ console.log("However, if you decide to travel by a vehicle, you will arrive at y
 var busTime = 60;
 var carTime = 23;
 
-if(busTime > carTime){
+/*if(busTime > carTime){
 	console.log("You're better off traveling by car.");
 }else{
 	if(busTime < carTime)
 		console.log("Catch the bus if you want to get to your destination quickly!")
-}
+}*/
+
+(busTime > carTime) ? console.log("You're better off traveling by car.") : console.log("Catch the bus if you want to get to your destination quickly!")
