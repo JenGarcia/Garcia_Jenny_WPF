@@ -9,7 +9,7 @@ function timeCalc(d, p, f){//Parameters - Stores reusable information. D=Design,
 	var firstTotal = d + p + f//Calculating the time spent on each project in minutes.
 	return firstTotal;//Spits out information out of function.
 }
-console.log(first)//Prints the information out to the console.
+console.log("Jane spent a total of " + first + " minutes working. Which equals to " + first/60 + " hours.")//Prints the information out to the console.
 
 function calcPayment(f, p, d){//Parameters - Stores information from arguments.
 	var amountTotal = f + p + d//Calculating information that's stored within parameters.
