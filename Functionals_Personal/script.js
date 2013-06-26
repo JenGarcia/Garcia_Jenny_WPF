@@ -15,4 +15,6 @@ var car = calcTravel(5, 15, 3);
 
 function calcTravel(g, d, p){
 	var carTravel = g + d + p
+	return carTravel;
 }
+console.log(car)
