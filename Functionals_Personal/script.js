@@ -22,12 +22,11 @@ console.log("However, if you decide to travel by a vehicle, you will arrive at y
 var busTime = 60;//Travel time on bus, 60 minutes.
 var carTime = 23;//Travel time using a car, 23 minutes.
 
-/*if(busTime > carTime){//If the time traveling on a bus takes longer than traveling by car, "You're better off traveling by car."
-	console.log("You're better off traveling by car.");//Information printed out to the console IF the statement is true.
+if(busTime < carTime){//If the time traveling on a bus takes longer than traveling by car, "You're better off traveling by car."
+	console.log("You're better off traveling by car if taking public transportation takes too long.");//Information printed out to the console IF the statement is true.
 }else{
-	if(busTime < carTime)//If the time traveling by car takes longer than traveling in a bus, "Catch the bus if you want to get to your destination quickly!"
-		console.log("Catch the bus if you want to get to your destination quickly!")//Information printed out to the console IF the statement is true.
-}*/ //used to close out code above so ternary can be added.
-
+	if(busTime > carTime)//If the time traveling by car takes longer than traveling in a bus, "Catch the bus if you want to get to your destination quickly!"
+		console.log("If using public transportation is faster, catch the bus if you want to get to your destination on time!")//Information printed out to the console IF the statement is true.
+}
 //Ternary code used to summarize IF and ELSE coding above.
-(busTime > carTime) ? console.log("You're better off traveling by car.") : console.log("Catch the bus if you want to get to your destination quickly!")//Two different console codes shortened. The one that is true will be printed out to the console.
+(busTime > carTime) ? console.log("You're better off traveling by car if taking public transportation takes too long.") : console.log("If using public transportation is faster, catch the bus if you want to get to your destination on time!")//Two different console codes shortened. The one that is true will be printed out to the console.
