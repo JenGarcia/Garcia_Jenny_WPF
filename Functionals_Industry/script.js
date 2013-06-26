@@ -26,21 +26,21 @@ function calcTime(d, p, f){//Parameters - Stores reusable information. D=Design,
 }
 console.log("The customer needed a few adjusments, so Jane had to spend " + second + " more minutes working. Adding " + second/60 + " hours to the " + first/60 + " hours she had already worked.")//Information printed out to the console.
 
-function paymentCalc(f, p, d){
-	var secondTotal = f + p + d
-	return secondTotal
+function paymentCalc(f, p, d){//Parameters - Stores information from arguments.
+	var secondTotal = f + p + d//Calculating information that's stored within parameters.
+	return secondTotal//Spits out information out of function.
 }
-console.log("With more time being spent on this project, Jane earned " + secondPayment + " dollars. Adding to the " + payment + " dollars she has already earned.")
+console.log("With more time being spent on this project, Jane earned " + secondPayment + " dollars. Adding to the " + payment + " dollars she has already earned.")//Information printed to the console.
 
-var minutes = calcMinutes(300, 150)
-var money = calcMoney(165, 335)
+var minutes = calcMinutes(300, 150)//Argument stored within parameters. Time frame in minutes.
+var money = calcMoney(165, 335)//Argument stored within parameters. Time frame in minutes.
 
-function calcMinutes(f, s){
-	var time = f + s 
-	return time;
+function calcMinutes(f, s){//Parameters - Stores reusable information. F=first, S=second
+	var time = f + s//Calculates information stored in parameters.
+	return time;//Spits out calculation out of function.
 }
-function calcMoney(s, f){
-	var amount = s + f;
-	return amount
+function calcMoney(s, f){//Parameters - Stores information from arguments. 
+	var amount = s + f;//Variable that calculates information from parameters
+	return amount;//Spits out calculation out of function
 }
-console.log("In total Jane worked " + minutes + " minutes. Which equals a total of " + minutes/60 + " hours spent working. Earning a total of " + money + " dollars.")
+console.log("In total Jane worked " + minutes + " minutes. Which equals a total of " + minutes/60 + " hours spent working. Earning a total of " + money + " dollars.")//Prints out to the console.
