@@ -17,4 +17,4 @@ function calcTravel(g, d, p){
 	var carTravel = g + d + p
 	return carTravel;
 }
-console.log(car)
+console.log("However, if you decide to travel by a vehicle, you will arrive at your destination in " + car + " minutes.")
