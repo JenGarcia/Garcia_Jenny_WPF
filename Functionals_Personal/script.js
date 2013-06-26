@@ -18,3 +18,6 @@ function calcTravel(g, d, p){
 	return carTravel;
 }
 console.log("However, if you decide to travel by a vehicle, you will arrive at your destination in " + car + " minutes.")
+
+var busTime = 60;
+var carTime = 23;
