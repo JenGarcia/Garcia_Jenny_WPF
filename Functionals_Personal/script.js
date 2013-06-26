@@ -11,4 +11,8 @@ function calcTime(t, b, w){
 console.log("If you take public transportation, you will spend " + bus + " minutes on the bus, in order to get to your destination.")
 
 
-var car = calcTravel(5, 15, 3)
+var car = calcTravel(5, 15, 3);
+
+function calcTravel(g, d, p){
+	var carTravel = g + d + p
+}
