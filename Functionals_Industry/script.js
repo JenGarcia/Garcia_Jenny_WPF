@@ -28,7 +28,6 @@ console.log("The customer needed a few adjusments, so Jane had to spend " + seco
 
 function paymentCalc(f, p, d){
 	var secondTotal = f + p + d
-	var totalEarnings = paymentCalc + 335
 	return secondTotal
 }
-console.log("With more time being spent on this project, Jane earned " + secondPayment + " more dollars. Making it a total of " + totalEarnings + " dollars in earnings.")
+console.log("With more time being spent on this project, Jane earned " + secondPayment + " dollars. Adding to the " + payment + " dollars she has already earned.")
