@@ -6,13 +6,13 @@ var first = timeCalc(120, 120, 60);//Arguments needed to store in parameters. Th
 var payment = calcPayment(65, 150, 120);//Arguments needed to store in parameters. This is the fee for each project.
 
 function timeCalc(d, p, f){//Parameters - Stores reusable information. D=Design, P=Programming and F=Flash
-	var firstTotal = d + p + f
-	return firstTotal;
+	var firstTotal = d + p + f//Calculating the time spent on each project in minutes.
+	return firstTotal;//Spits out information out of function.
 }
-console.log(first)
+console.log(first)//Prints the information out to the console.
 
-function calcPayment(f, p, d){
-	var amountTotal = f + p + d
-	return amountTotal;
+function calcPayment(f, p, d){//Parameters - Stores information from arguments.
+	var amountTotal = f + p + d//Calculating information that's stored within parameters.
+	return amountTotal;//Spits out information out of function.
 }
-console.log(payment)
+console.log(payment)//Information printed out to the console.
