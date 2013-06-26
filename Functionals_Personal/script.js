@@ -23,5 +23,8 @@ var busTime = 60;
 var carTime = 23;
 
 if(busTime > carTime){
-	console.log("You're better off traveling by car.")
+	console.log("You're better off traveling by car.");
+}else{
+	if(busTime < carTime)
+		console.log("Catch the bus if you want to get to your destination quickly!")
 }
