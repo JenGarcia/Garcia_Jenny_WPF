@@ -24,10 +24,11 @@ function calcTime(d, p, f){
 	var secondTime = d + p + f
 	return secondTime;
 }
-console.log("The customer needed a few adjusments so Jane had to spend " + second + " more minutes working. Adding " + second/60 + " hours to the " + first/60 + " she already put in.")
+console.log("The customer needed a few adjusments, so Jane had to spend " + second + " more minutes working. Adding " + second/60 + " hours to the " + first/60 + " hours she had already worked.")
 
 function paymentCalc(f, p, d){
 	var secondTotal = f + p + d
+	var totalEarnings = paymentCalc + 335
 	return secondTotal
 }
-console.log(secondPayment)
+console.log("With more time being spent on this project, Jane earned " + secondPayment + " more dollars. Making it a total of " + totalEarnings + " dollars in earnings.")
