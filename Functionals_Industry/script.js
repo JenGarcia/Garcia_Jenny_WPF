@@ -17,14 +17,14 @@ function calcPayment(f, p, d){//Parameters - Stores information from arguments.
 }
 console.log("Calculating the time Jane spent working, she earned a total of " + payment + " dollars.")//Information printed out to the console.
 
-var second = calcTime(60, 60, 30);
-var secondPayment = paymentCalc(60, 75, 30);
+var second = calcTime(60, 60, 30);//Arguments needed to store in parameters. This is the time frame for each project in minutes.
+var secondPayment = paymentCalc(60, 75, 30);//Arguments needed to store in parameters. This is the fee for each project.
 
-function calcTime(d, p, f){
-	var secondTime = d + p + f
-	return secondTime;
+function calcTime(d, p, f){//Parameters - Stores reusable information. D=Design, P=Programming and F=Flash
+	var secondTime = d + p + f//Calculating the time spent on each project in minutes.
+	return secondTime;//Spits out information out of function.
 }
-console.log("The customer needed a few adjusments, so Jane had to spend " + second + " more minutes working. Adding " + second/60 + " hours to the " + first/60 + " hours she had already worked.")
+console.log("The customer needed a few adjusments, so Jane had to spend " + second + " more minutes working. Adding " + second/60 + " hours to the " + first/60 + " hours she had already worked.")//Information printed out to the console.
 
 function paymentCalc(f, p, d){
 	var secondTotal = f + p + d
