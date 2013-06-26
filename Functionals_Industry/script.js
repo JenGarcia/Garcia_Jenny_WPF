@@ -15,4 +15,4 @@ function calcPayment(f, p, d){//Parameters - Stores information from arguments.
 	var amountTotal = f + p + d//Calculating information that's stored within parameters.
 	return amountTotal;//Spits out information out of function.
 }
-console.log(payment)//Information printed out to the console.
+console.log("Calculating the time Jane spent working, she earned a total of " + payment + " dollars.")//Information printed out to the console.
