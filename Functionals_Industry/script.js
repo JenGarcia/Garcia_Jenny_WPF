@@ -17,5 +17,11 @@ function calcPayment(f, p, d){//Parameters - Stores information from arguments.
 }
 console.log("Calculating the time Jane spent working, she earned a total of " + payment + " dollars.")//Information printed out to the console.
 
-var second = calcTime(60, 60, 30);
-var secondPayment = paymentCalc(60, 75, 30);
+var second = calcTime(60, 75, 30);
+//var secondPayment = paymentCalc(60, 75, 30);
+
+function calcTime(d, p, f){
+	var secondTotal = d + p + f
+	return secondTotal;
+}
+console.log(second)
