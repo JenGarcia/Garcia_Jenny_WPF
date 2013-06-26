@@ -6,4 +6,6 @@ var bus = calcTime(30, 20, 10);
 
 function calcTime(t, b, w){
 	var busTravel = t + b + h
+	return busTravel;
 }
+console.log(bus)
