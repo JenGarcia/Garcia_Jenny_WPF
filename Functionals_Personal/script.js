@@ -2,13 +2,13 @@
 //June 25, 2013
 //Functions Personal -- Bus or Car?
 
-var bus = calcTime(30, 20, 10);
+var bus = calcTime(30, 20, 10);//arguments - info being sent to parameters. Waiting time=30, bus=20, walk=10.
 
-function calcTime(t, b, w){
-	var busTravel = t + b + w
-	return busTravel;
+function calcTime(t, b, w){//Parameters - storing information.
+	var busTravel = t + b + w//Calclating information.
+	return busTravel;//Spits information out of function.
 }
-console.log("If you take public transportation, you will spend " + bus + " minutes on the bus, in order to get to your destination.")
+console.log("If you take public transportation, you will spend " + bus + " minutes on the bus, in order to get to your destination.")//Information that prints out to the console.
 
 
 var car = calcTravel(5, 15, 3);
