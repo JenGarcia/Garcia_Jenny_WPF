@@ -31,3 +31,12 @@ function paymentCalc(f, p, d){
 	return secondTotal
 }
 console.log("With more time being spent on this project, Jane earned " + secondPayment + " dollars. Adding to the " + payment + " dollars she has already earned.")
+
+var minutes = calcMinutes(300, 150)
+var money = calcMoney(335, 165)
+
+function calcMinutes(f, s){
+	var time = f + s 
+	return time;
+}
+console.log("In total Jane worked " + minutes + " minutes. Which equals a total of " + minutes/60 + " hours spent working.")
